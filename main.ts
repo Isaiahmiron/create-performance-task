@@ -55,5 +55,4 @@ game.splash("You are about to play would you rather. Press A for the first optio
 for (let index2 = 0; index2 <= Lauren_come_baaaaaaaack.length - 1; index2++) {
     userBooleanList.push(game.ask(Lauren_come_baaaaaaaack[index2]))
 }
-programSetUp()
 basicometer(userBooleanList)
