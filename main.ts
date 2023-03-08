@@ -3,14 +3,14 @@ function programSetUp () {
     "Cats or Dogs?",
     "Movies or Series?",
     "Go out or stay in?",
-    "Breakfast or Dinner?",
+    "Pen or Pencil?",
     "Computer or paper?",
     "Essay or Reading?",
     "Warm or Cold?",
     "Sweatshirt or T-shirt?",
     "Basketball or Football?",
     "Photography or Drawing?",
-    "Headphones or Earbuds",
+    "Headphone or Earbuds",
     "Music or Audiobooks",
     "Shorts or pants",
     "Hot coffee or Iced coffee?",
@@ -32,20 +32,9 @@ function programSetUp () {
     ]
     thisOrThatListOfBooleans = [
     false,
-    false,
-    false,
-    false,
     true,
     false,
-    true,
-    false,
-    false,
-    false,
-    true,
-    false,
-    true,
-    false,
-    false
+    true
     ]
     basicness = 0
 }
