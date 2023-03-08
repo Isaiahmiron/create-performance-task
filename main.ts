@@ -30,7 +30,7 @@ function programSetUp () {
     "Bruv or Dove",
     "You or U"
     ]
-    Lauren_come_baaaaack_Boolean = [
+    thisOrThatListOfBooleans = [
     false,
     true,
     false,
@@ -40,13 +40,13 @@ function programSetUp () {
 }
 function basicometer (userChoices: any[]) {
     for (let index = 0; index <= userChoices.length - 1; index++) {
-        if (userBooleanList[index] == Lauren_come_baaaaack_Boolean[index]) {
+        if (userBooleanList[index] == thisOrThatListOfBooleans[index]) {
             basicness += 1
         }
     }
 }
 let basicness = 0
-let Lauren_come_baaaaack_Boolean: boolean[] = []
+let thisOrThatListOfBooleans: boolean[] = []
 let text_list: string[] = []
 let thisOrThatList: string[] = []
 let userBooleanList: boolean[] = []
