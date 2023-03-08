@@ -1,4 +1,21 @@
 function programSetUp () {
+    thisOrThatList = [
+    "Cats or Dogs?",
+    "Movies or Series?",
+    "Go out or stay in?",
+    "Pen or Pencil?",
+    "Computer or paper?",
+    "Essay or Reading?",
+    "Warm or Cold?",
+    "Sweatshirt or T-shirt?",
+    "Basketball or Football?",
+    "Photography or Drawing?",
+    "Headphone or Earbuds",
+    "Music or Audiobooks",
+    "Shorts or pants",
+    "Hot coffee or Iced coffee?",
+    "Netflix or Disney?"
+    ]
     text_list = [
     "You didn't pick a single option that was the popular vote; You're 100% not basic",
     "b",
@@ -31,10 +48,11 @@ function basicometer (userChoices: any[]) {
 let basicness = 0
 let Lauren_come_baaaaack_Boolean: boolean[] = []
 let text_list: string[] = []
+let thisOrThatList: string[] = []
 let userBooleanList: boolean[] = []
 let Lauren_come_baaaaaaaack: string[] = []
 game.splash("You are about to play would you rather. Press A for the first option and B for the second option")
-for (let index = 0; index <= Lauren_come_baaaaaaaack.length - 1; index++) {
-    userBooleanList.push(game.ask(Lauren_come_baaaaaaaack[index]))
+for (let index2 = 0; index2 <= Lauren_come_baaaaaaaack.length - 1; index2++) {
+    userBooleanList.push(game.ask(Lauren_come_baaaaaaaack[index2]))
 }
 basicometer(userBooleanList)
